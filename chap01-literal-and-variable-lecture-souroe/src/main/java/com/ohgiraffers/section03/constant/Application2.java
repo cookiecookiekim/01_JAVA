@@ -11,9 +11,10 @@ public class Application2 {
          /* 1. 모든 문자는 영문자 대문자 혹은 숫자만 사용한다. */
         final int AGE = 20;
         final int AGE2 = 30;
-        
+
         /* 2. 단어와 단어 연결은 언더스코어 (_)를 사용한다. (상수에서는 낙타표기법을 쓰지 못하므로) EX) MAX_AGE */
         final int MAX_AGE = 60;
 
+        // 소스트리 , 깃허브 연동하였고, 잘 작동 되는지 시험삼아 저장해보는 것.
     }
 }
