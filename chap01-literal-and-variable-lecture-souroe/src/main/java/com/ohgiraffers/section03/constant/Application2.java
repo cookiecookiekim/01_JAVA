@@ -1,6 +1,6 @@
 package com.ohgiraffers.section03.constant;
 
-public class Application2 {
+public class Application2 { // 24-08-26 (월)
 
     public static void main(String[] args) {
 
