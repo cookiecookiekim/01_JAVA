@@ -1,6 +1,6 @@
 package com.ofgiraffers.section01.method;
 
-public class Application3 {
+public class Application3 { // 24-08-29 (목) 1~2교시 메소드 정리
 
     public static void main(String[] args) {
         /* title. 메소드의 전달 인자와 매개변수에 대해 이해하고 활용할 수 있다. */
@@ -20,14 +20,31 @@ public class Application3 {
 
         /* index. 2. 만든 메소드 호출해보기 */
         Application3 app3 = new Application3();
-        app3.testMethod(40);
+        app3.testMethod(40); // 작동 이상 없음
+//        app3.testMethod("40"); // 매개변수 공간은 int형이지만, 인자를 String으로 보내서 오류 발생
+//        app3.testMethod(20, 30, 40); // 준비된 공간이 1개 뿐이지만, 인자를 3개 보냈기 때문에 오류 발생
+//        app3.testMethod(); // 매개변수는 선언되어 있지만 인자로 값을 전달하지 않으면 오류 발생
+        /* index. 3. 변수에 저장한 값을 전달 테스트 */
+        int age = 20;
+        app3.testMethod(age);
+
+        /* index. 4. 자동 형변환을 이용하여 값 전달 테스트 */
+        byte bNum = 10;
+        app3.testMethod(bNum);
+
+        /* index. 5. 강제 형변환을 이용하여 값 전달 테스트 */
+        long lNum = 30;
+        app3.testMethod((int) lNum);
+
+        /* index. 6. 연산의 결과를 이용해서 값 전달 테스트 */
+        app3.testMethod(age * 3);
 
         }
         /* index. 1. 호출할 메소드 만들기 */
         public void testMethod(int test) {
 
             System.out.println("testMethod 호출됨...");
-        /* index. 2-2. 출력해보기 */
+        /* index. 2-2. (my) 출력해보기 */
             System.out.println("제 나이는 " + test + "세 입니다.");
 
             System.out.println("testMethod 종료됨...");
