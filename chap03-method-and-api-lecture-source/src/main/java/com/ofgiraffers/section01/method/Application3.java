@@ -21,7 +21,7 @@ public class Application3 {
         /* index. 2. 만든 메소드 호출해보기 */
         Application3 app3 = new Application3();
         app3.testMethod(40);
-
+ 
         }
         /* index. 1. 호출할 메소드 만들기 */
         public void testMethod(int test) {
