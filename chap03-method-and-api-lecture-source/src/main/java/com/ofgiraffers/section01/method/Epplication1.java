@@ -1,52 +1,36 @@
 package com.ofgiraffers.section01.method;
 
-public class Epplication1 {
+public class Epplication1 { // 문제 풀이 (1시간 걸림)
 
-    public static void main(String[] args) {
+          public static void main(String[] args) {
+            int num1 = 37;
+            int num2 = 28;
 
-        Kalculator kal = new Kalculator();
+            Epplication1 epp1 = new Epplication1();
+            String result1 = epp1.isEven(num1);
+              System.out.println("result = " + result1);
 
-        int a = 10;
-        int b = 20;
+            String result2 = epp1.isEven(num2);
+              System.out.println("result2 = " + result2);
+       }
+       public String isEven (int first) {
+           return (first % 2 == 0) ? "참" : "거짓";
 
-        kal.checkMethod();
-        int sum = kal.sumTwoNumber(a , b);
-
-        int c = 10;
-        int d = 5;
-        int min = kal.minusTwoNumber(c , d);
-
-        int mul = kal.multiTwoNumber(c , d);
-        int div = kal.divideTwoNumber(c , d);
-
-        System.out.println("sum = " + sum);
-        System.out.println("min = " + min);
-        System.out.println("mul = " + mul);
-        System.out.println("div = " + div);
-
-    }
+       }
 }
-/* 다음 조건을 만족하는 프로그램을 작성하시오.
- *   구현 클래스 Calculator, Application01
- *   구현 내용
- *   Calculator
- *   - checkMethod(): void 설명 : 함수 호출, 확인용 메소드
- *   - sumTwoNumber(a:int, b:int): int 설명 : 두 수를 입력 받아 합을 리턴한다.
- *   - minusTwoNumber(a:int, b:int): int 설명 : 두 수를 입력 받아 차를 리턴한다.
- *   - multiTwoNumber(a:int, b:int): int 설명 : 두 수를 입력 받아 곱한 값을 리턴한다.
- *   - divideTwoNumber(a:int, b:int): int 설명 : 두 수를 입력 받아 나눈 값을 리턴한다.
- *
- *   Application01
- *   - main(args:String[]): void 설명 : 모든 메소드는 main 함수에서 호출하여 출력한다.
- *   // 메소드 호출 확인용 메소드 호출
- *   // 10, 20 두 개의 정수를 매개변수로 하여 두 수를 더하는 메소드 호출 후 리턴값 출력
- *   // 10, 5 두 개의 정수를 매개변수로 하여 두 수의 차를 구하는 메소드 호출 후 리턴값 출력
- *   // 10, 5 두 개의 정수를 매개변수로 하여 두 수의 곱을 구하는 메소드 호출 후 리턴값 출력
- *   // 10, 5 두 개의 정수를 매개변수로 하여 두 수의 몫을 구하는 메소드 호출 후 리턴값 출력
- *   실행 결과
- *   - 메소트 호출 확인
- *   - 10과 20의 합 : 30
- *   - 10과 5의 차 : 5
- *   - 10과 5의 곱 : 50
- *   - 10과 5의 나눈 후 몫 : 2
- *  */
+    //int형 변수 num1, num2 를 선언하고 num1과 num2가 짝수인지 판별하는 메소드 isEven을  작성하시오.
+//
+//단, 결과는 참, 거짓으로 출력되며 삼항연산자를 이용하기 바랍니다.
+//
+//입력 )
+//
+//num1 = 37
+//
+//num2 = 28
+//
+//출력 결과 )
+//
+//num1 = 거짓
+//
+//num2 = 참
+
