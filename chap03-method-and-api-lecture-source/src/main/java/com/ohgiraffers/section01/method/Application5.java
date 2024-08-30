@@ -1,4 +1,4 @@
-package com.ofgiraffers.section01.method;
+package com.ohgiraffers.section01.method;
 
 public class Application5 { // 24-08-29 (목) 3교시 메소드 return 연산의 값을 다시 가지고 온다.
 

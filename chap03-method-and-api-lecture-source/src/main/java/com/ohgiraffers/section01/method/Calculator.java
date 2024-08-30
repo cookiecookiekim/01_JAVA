@@ -1,4 +1,4 @@
-package com.ofgiraffers.section01.method;
+package com.ohgiraffers.section01.method;
 
 public class Calculator { // 24-08-29 (목) 5교시 static 메서드 연계 방법 (다른 클래스 메인에서 다른 클래스로)
 

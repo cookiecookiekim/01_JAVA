@@ -1,4 +1,4 @@
-package com.ofgiraffers.section01.method;
+package com.ohgiraffers.section01.method;
 
 public class Application4 { // 24-08-29 (목) 2교시 메소드 이어서
 

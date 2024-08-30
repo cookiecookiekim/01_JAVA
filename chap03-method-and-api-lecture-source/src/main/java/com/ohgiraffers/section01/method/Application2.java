@@ -1,4 +1,4 @@
-package com.ofgiraffers.section01.method;
+package com.ohgiraffers.section01.method;
 
 public class Application2 {// 24-08-28 (수) 6 교시 메소드 복습
 

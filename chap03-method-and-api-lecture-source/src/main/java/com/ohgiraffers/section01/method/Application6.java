@@ -1,4 +1,4 @@
-package com.ofgiraffers.section01.method;
+package com.ohgiraffers.section01.method;
 
 public class Application6 { // 24-08-29 (목) 3교시 자료형 메소드 return 이어서. ★이해 필요★
 

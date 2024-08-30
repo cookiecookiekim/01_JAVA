@@ -1,4 +1,4 @@
-package com.ofgiraffers.section01.method;
+package com.ohgiraffers.section01.method;
 
 public class Application9 { // 24-08-29 (목) 5교시 static 메서드 (static은 그렇게 많이 사용하지 않음, 이해만 하자)
 
