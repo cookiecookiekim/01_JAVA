@@ -13,7 +13,6 @@ public class B_NestedFor { // 24-09-03 2교시 중첩 for문
             }
             System.out.println(); // 한 줄 띄우기
         }
-        
 
     }
     ///////////////////////////////////////////////////////////////////
@@ -48,7 +47,7 @@ public class B_NestedFor { // 24-09-03 2교시 중첩 for문
         System.out.print("출력할 행 수를 입력해 주세요 : ");
         int row = scr.nextInt();
 
-        for (int i = 1; i <= row; i++) {
+        for (int i = 1; i <= row; i++) { // row => 줄 수
 
 //            for (int j = 1; j <= 5; j++) {
 //                System.out.print("*");
@@ -56,13 +55,52 @@ public class B_NestedFor { // 24-09-03 2교시 중첩 for문
             printStar(5);
             System.out.println();
         }
-
     }
 
-    private void printStar (int times) { // 5
+    private void printStar (int times) { // 5 // times => 별 개수
         for (int i = 1; i <= times; i++) {
             System.out.print("*");
         }
+    }
+
+    public void printTriangleStars () { // 3교시 문제 풀어보기
+        /* comment. 키보드로 정수를 하나 입력 받아 해당 정수만큼 한 행에 "*"을 행의 번호개씩 출력
+        *   ex) 정수를 입력해 주세요 : 3
+        *   *
+        *   **
+        *   ****/
+        Scanner scr = new Scanner(System.in);
+        System.out.print("하나의 정수를 입력해 주세요 : ");
+        int row = scr.nextInt();
+
+        for (int i = 1; i <= row; i++) {
+
+            for (int z = 1; z <= i; z++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+    }
+
+    public void printReverseTriangleStars () { // 3교시 문제 풀어보기
+        /* comment. ex)정수를 입력해 주세요 : 3
+        *   ***
+        *   **
+        *   *  */
+
+        Scanner scr = new Scanner(System.in);
+        System.out.print("정수 하나를 입력하세요 : ");
+        int num = scr.nextInt();
+        for (int i = 1; i <= num; i++) {
+
+            for (int z = num; z >= i; z--) {
+
+                System.out.print("*"); // 줄바꿈 제대로 하자..........
+            }
+            System.out.println();
+        }
+
     }
 
 }

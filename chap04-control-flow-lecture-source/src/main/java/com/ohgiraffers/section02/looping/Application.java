@@ -15,8 +15,9 @@ public class Application {// 24-09-02 월 for문 main
         B_NestedFor c = new B_NestedFor();
        // c.printGugudanTwoToNine();
       //  c.upgradeGUgudanTwoToNine();
-        c.printStarInputRowTimes();
-
+     //   c.printStarInputRowTimes();
+       // c.printTriangleStars();
+     //   c.printReverseTriangleStars();
 
 
         IfPractice b = new IfPractice();
@@ -27,6 +28,15 @@ public class Application {// 24-09-02 월 for문 main
         //b.PracticeIf5();
        // b.PracticeIf6();
        // b.PracticeIf7();
+
+        C_while d = new C_while();
+       // d.testWhileStatement();
+       // d.whileExample1();
+     //  d.whileExample2();
+
+        D_doWhile r = new D_doWhile();
+       // r.testdoWhileStatement();
+     //   r.doWhileExample();
 
 
     }
