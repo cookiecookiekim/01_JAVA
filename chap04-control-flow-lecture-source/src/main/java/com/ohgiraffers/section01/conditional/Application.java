@@ -18,7 +18,8 @@ public class Application { // 조건문 A_if의 메인 클래스로 사용
       //  c.testNestedIfElseIfStatement();
 //        c.ImproveNestedIfElseIfStatement();
        // d.testSwitchStatement();
-        d.testSwitchVendingMachine();
+       // d.testSwitchVendingMachine();
+
 
     }
 

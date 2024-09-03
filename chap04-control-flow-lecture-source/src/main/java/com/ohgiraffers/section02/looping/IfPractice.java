@@ -24,9 +24,9 @@ public class IfPractice {
 
 
         if (number == 1) {
-            System.out.println("짝수 입니다!!");
+            System.out.println("짝수(1) 입니다!!");
         } else if (number == 2) {
-            System.out.println("홀수 입니다!!");
+            System.out.println("홀수(2) 입니다!!");
         } else {
             System.out.println("입력이 잘못 되었습니다. 다시 진행하세요. ");
         }
@@ -161,6 +161,17 @@ public class IfPractice {
             }
         }
 
+
+    }
+
+    public void PracticeIf8 () {
+        Scanner scr = new Scanner(System.in);
+        int result = scr.nextInt();
+
+        int sum = 0;
+        int month = 0;
+        int earn = 0;
+        int bonus = 0;
 
     }
 }

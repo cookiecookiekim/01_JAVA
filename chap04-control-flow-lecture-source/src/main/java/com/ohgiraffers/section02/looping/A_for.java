@@ -17,7 +17,7 @@ public class A_for { // 24-09-02 월 for문 기초
         // 초기식 : int 1 = 1;
         // 조건식 : i <= 10;
         // 증감식 : i++
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 10; i++) { // i는 지역 변수이므로 밖에서 사용 못함.
             System.out.println(i);
         }
     }
@@ -118,6 +118,47 @@ public class A_for { // 24-09-02 월 for문 기초
             sum = sum + i;
         }
         System.out.println("1부터 " +random + "까지의 합은 : " + sum);
+    }
+
+    public void testForExample4 () { // 24-09-03 (화) 1교시
+        /* comment
+        *   숫자 2개를 입력받아, 작은 수에서 큰 수까지의 합을 구하시오. (단 두 숫자는 같지 않다는 가정) */
+        Scanner scr = new Scanner(System.in);
+        System.out.print("첫 번째 정수 입력 : ");
+        int first = scr.nextInt();
+        System.out.print("두 번째 정수 입력 : ");
+        int second = scr.nextInt();
+
+        int sum = 0;
+
+        if (first > second) { // 첫번째 정수가 더 큰 경우
+            for (int i = second; i <= first; i++) {
+                sum = sum + i;
+            }
+        } else { // 두번째 정수가 더 큰 경우
+            for (int i = first; i <= second; i++) {
+                sum = sum + i;
+            }
+
+        }
+        System.out.println("sum = " + sum);
+
+    }
+    public void printSimpleGugudan () {
+        /* comment. 스캐너로 2 ~ 9 사이의 구구단을 입력받아, 구구단을 출력하고
+        *   그렇지 않은 경우 " 반드시 2 ~ 9 사이의 양수를 입력해 주세요" 를 출력해 보자. */
+        Scanner scr = new Scanner(System.in);
+        System.out.print("출력할 구구단의 단 수를 입력해 주세요 : ");
+        int dan = scr.nextInt();
+
+        if (2 <= dan && dan <= 9) {
+            for (int su= 1; su <= 9; ++su) {
+                System.out.println(dan + " * " + su + " = " + (dan * su));
+            }
+        } else {
+            System.out.println("반드시 2 ~ 9 사이의 양수를 입력해 주세요.");
+        }
+
     }
 
 }

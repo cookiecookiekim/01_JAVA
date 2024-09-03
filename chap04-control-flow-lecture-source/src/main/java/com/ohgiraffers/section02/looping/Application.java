@@ -9,6 +9,16 @@ public class Application {// 24-09-02 월 for문 main
         // a.testForExample1();
       //  a.testForExample2();
       //  a.testForExample3();
+      //  a.testForExample4();
+      //  a.printSimpleGugudan();
+
+        B_NestedFor c = new B_NestedFor();
+       // c.printGugudanTwoToNine();
+      //  c.upgradeGUgudanTwoToNine();
+        c.printStarInputRowTimes();
+
+
+
         IfPractice b = new IfPractice();
         //b.PracticeIf1();
       //  b.PracticeIf2();
@@ -16,7 +26,7 @@ public class Application {// 24-09-02 월 for문 main
        // b.PracticeIf4();
         //b.PracticeIf5();
        // b.PracticeIf6();
-        b.PracticeIf7();
+       // b.PracticeIf7();
 
 
     }
