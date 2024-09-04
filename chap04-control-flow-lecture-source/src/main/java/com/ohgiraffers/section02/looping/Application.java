@@ -28,6 +28,13 @@ public class Application {// 24-09-02 월 for문 main
         //b.PracticeIf5();
        // b.PracticeIf6();
        // b.PracticeIf7();
+      //  b.PracticeIf8();
+//        b.PracticeIf9();
+//        b.PracticeIf10();
+      //  b.PracticeIf11();
+        b.PracticeIf12();
+
+
 
         C_while d = new C_while();
        // d.testWhileStatement();

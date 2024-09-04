@@ -164,14 +164,124 @@ public class IfPractice {
 
     }
 
-    public void PracticeIf8 () {
+            public void PracticeIf8 () {
+                    Scanner scr = new Scanner(System.in);
+                    System.out.print("월 급여 입력 : ");
+                    int monthEarn = scr.nextInt();
+                    System.out.print("매출액 입력 : ");
+                    int earn = scr.nextInt();
+
+            int bonus;
+
+                if (earn >= 50000000) {
+                    bonus = 5;
+                } else if (earn >= 30000000) {
+                    bonus = 3;
+                } else if (earn >= 10000000) {
+                    bonus = 1;
+                } else {
+                    bonus = 0;
+                }
+                System.out.println("\n" + "매출액 : " + earn);
+                System.out.println("보너스율 : " + bonus + "%");
+                System.out.println("월 급여 : " + monthEarn);
+                System.out.println("보너스 금액 : " + (earn * bonus));
+                System.out.println("===========================");
+                System.out.println("총 급여 : " + (monthEarn + (earn * bonus) * 0.01));
+
+
+    }
+
+    public void PracticeIf9 () {
         Scanner scr = new Scanner(System.in);
-        int result = scr.nextInt();
+        System.out.print("나이를 입력하세요 : ");
+        int age = scr.nextInt();
+        System.out.print("키를 입력하세요 : ");
+        double height = scr.nextInt();
 
-        int sum = 0;
-        int month = 0;
-        int earn = 0;
-        int bonus = 0;
+        if (age > 8 && height > 109) {
+            System.out.println("놀이기구에 탑승 가능합니다.");
+        } else if (age < 9) {
+            System.out.println("9살이 넘으면 오세요.");
+        } else {
+            System.out.println("키 110cm 이상 되고 오세요.");
+        }
 
+    }
+
+    public void PracticeIf10 () {
+        Scanner scr = new Scanner(System.in);
+        System.out.print("과학의 점수를 입력 하세요 : ");
+        int sci = scr.nextInt();
+        System.out.print("수학의 점수를 입력 하세요 : ");
+        int math = scr.nextInt();
+
+        int avg = (sci + math) / 2;
+        if (avg > 59 && sci > 39 && math > 39) {
+            System.out.println("합격을 축하드립니다.");
+        } else {
+            System.out.println("불합격 입니다.");
+        }
+    }
+
+    public void PracticeIf11 () {
+
+        Scanner scr = new Scanner(System.in);
+        System.out.print("차 종을 입력하세요 (1.소형 2.중형 3.대형 4.SUV 5.승합) : ");
+        int car = scr.nextInt();
+        String name = "";
+        int budget = 0;
+
+        switch (car) {
+            case 1 :
+                name = "소형차";
+                budget = 40000;
+                break;
+            case 2 :
+                name = "중형차";
+                budget = 55000;
+                break;
+            case 3 :
+                name = "대형차";
+                budget = 80000;
+                break;
+            case 4 :
+                name = "SUV";
+                budget = 100000;
+                break;
+            case 5 :
+                name = "승합차";
+                budget = 120000;
+                break;
+        }
+        System.out.println(name + "을 선택하셨습니다. " + budget + "원 입니다.");
+    }
+
+    public void PracticeIf12 () {
+        Scanner scr = new Scanner(System.in);
+        System.out.print("1 ~ 12 사이의 정수를 입력하세요 : ");
+        int season = scr.nextInt();
+
+        if (season > 11 || season < 3) {
+            System.out.print("추운 겨울입니다. 온도를 입력하세요 : ");
+            int temp = scr.nextInt();
+            if (temp < -16) {
+                System.out.println("한파 경보");
+            } else if (temp < -5 && temp > -15) {
+                System.out.println("한파 주의보");
+            }
+        } else if (season > 5 && season < 10) {
+            System.out.print("더운 여름입니다. 온도를 입력하세요 : ");
+            int temp2 = scr.nextInt();
+            if (temp2 > 33) {
+                System.out.println("폭염 경보");
+            } else if (temp2 > 27 && temp2 < 33) {
+                System.out.println("폭염주의보");
+            }
+        } else if (season < 6) {
+            System.out.println("봄입니다.");
+        } else {
+            System.out.println("가을입니다.");
+        }
     }
 }
