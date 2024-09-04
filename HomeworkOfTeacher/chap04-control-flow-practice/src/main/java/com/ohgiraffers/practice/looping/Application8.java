@@ -1,5 +1,8 @@
 package com.ohgiraffers.practice.looping;
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class Application8 {
 
     public static void main(String[] args) {
@@ -23,6 +26,32 @@ public class Application8 {
          * 정수를 입력하세요 : 4
          * 정답입니다. 3회만에 정답을 맞추셨습니다.
          * */
+        Application8 app8 = new Application8();
+        app8.test8();
+    }
+
+    public void test8 () {
+        Scanner scr = new Scanner(System.in);
+        Random rd = new Random();
+        int nan = rd.nextInt(100) + 1;
+        System.out.println("난수는 " + nan + "입니다.");
+        int count = 0;
+
+        while (true) {
+            System.out.print("정수를 입력하세요 : ");
+            count++;
+            int num = scr.nextInt();
+
+            if (num > nan) {
+                System.out.println("입력하신 정수가 난수보다 큽니다.");
+            } else if (num < nan) {
+                System.out.println("입력하신 정수가 난수보다 작습니다.");
+            } else {
+            break;
+            }
+
+        }
+        System.out.println("정답입니다. " + count + " 회 만에 정답을 맞추셨습니다.");
 
     }
 
