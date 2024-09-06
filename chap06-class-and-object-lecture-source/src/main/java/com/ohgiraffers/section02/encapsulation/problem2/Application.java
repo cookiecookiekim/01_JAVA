@@ -30,9 +30,6 @@ public class Application { // 24-09-06 3교시 클래스 이어서 (정상적인
 //        System.out.println("monster4.name = " + monster4.name);// 핑
 //        System.out.println("monster4.hp = " + monster4.hp); // 500
 
-
-
     }
-
 
 }

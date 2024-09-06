@@ -12,6 +12,4 @@ public class Monster { // 24-09-06 3교시 클래스 이어서
     int hp;
     /* comment. 문제 수정을 위해 problem3을 만들어서 다시 해보자. */
 
-
-
 }
