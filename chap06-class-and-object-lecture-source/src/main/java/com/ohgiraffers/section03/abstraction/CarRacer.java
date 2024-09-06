@@ -20,7 +20,4 @@ public class CarRacer {// 24-09-06 (금) 6교시 클래스 (abstraction - 추상
     public void turnOff () {
         car.turnOff();
     }
-
-
-
 }
