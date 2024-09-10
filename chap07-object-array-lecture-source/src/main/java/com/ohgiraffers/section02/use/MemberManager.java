@@ -22,14 +22,11 @@ public class MemberManager { // 24-09-10 (화) 5교시 클래스 - 회원 관리
 
     public void searchAllMembers() {
 
-        MemberSeachManager searchManager = new MemberSeachManager();
+        MemberSearchManager searchManager = new MemberSearchManager();
         MemberDTO[] result = searchManager.searchAllMembers();
 
         for (int i = 0; i < result.length; i++) {
             System.out.println(result[i] + " ");
-        }
-        for (MemberDTO c : result){
-            System.out.println(c);
-        }
+        } // 향상된 for문 → for (자료형 변수 : 가져올 거)
     }
 }

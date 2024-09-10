@@ -56,7 +56,4 @@ public class Application { // 24-09-10 (화) 1교시 클래스 - static keyword
 
     }
 
-
-
-
 }

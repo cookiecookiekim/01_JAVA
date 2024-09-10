@@ -14,7 +14,5 @@ public class StaticMethodTest { // 24-09-10 (화) 1교시 클래스 - static key
         // static 메서드는 인스턴스를 생성하지 않고 사용하는 메서드이기 때문에
         // this에는 인스턴스의 주소가 들어갈 수 없다.
         System.out.println("static 메서드 호출됨...");
-
     }
-
 }

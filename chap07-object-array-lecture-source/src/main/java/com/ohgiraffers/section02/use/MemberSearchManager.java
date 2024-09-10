@@ -1,6 +1,6 @@
 package com.ohgiraffers.section02.use;
 
-public class MemberSeachManager {
+public class MemberSearchManager {
 
     public MemberDTO[] searchAllMembers() {
 

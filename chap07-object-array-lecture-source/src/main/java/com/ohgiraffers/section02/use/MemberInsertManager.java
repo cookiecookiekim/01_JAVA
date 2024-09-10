@@ -8,6 +8,7 @@ public class MemberInsertManager {
 
         for (int i = 0; i < members.length; i++) {
             System.out.println(members[i].getName() + "님을 회원 등록에 성공 했습니다.");
-        }
+        } // 향상된 for문 → for (자료형 변수 : 가져올 거)
+
     }
 }
