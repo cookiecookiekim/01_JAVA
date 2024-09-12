@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b248ee0f-b7d9-40be-9400-94017323ca2f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section02/abstractclss/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section02/abstractclss/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section02/abstractclss/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section03/interfaceimplements/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section03/interfaceimplements/InterfaceProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section03/interfaceimplements/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section04/use/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section04/use/FarmCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section04/use/FireCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section04/use/SoundHorn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/com/ohgiraffers/section02/stringbuilder/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/com/ohgiraffers/section02/stringbuilder/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chap08-inheritance-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chap08-inheritance-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/src/main/java/com/ohgiraffers/section01/string/Application1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/src/main/java/com/ohgiraffers/section01/string/Application2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/src/main/java/com/ohgiraffers/section01/string/Application3.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JJIN0323"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/cookiecookiekim/01_JAVA.git",
+    "accountId": "27a5fb79-4a87-40c2-a1a4-420e3bec0bbf"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2lxcKXgGouRTI5kX3Lal6o8TBMk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/source/01_java/01_lecture_source/chap09-polymorphism-lecture-source",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b248ee0f-b7d9-40be-9400-94017323ca2f" name="Changes" comment="" />
+      <created>1726125104388</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726125104388</updated>
+      <workItem from="1726125105726" duration="4523000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

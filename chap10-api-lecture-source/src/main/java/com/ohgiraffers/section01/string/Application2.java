@@ -40,7 +40,5 @@ public class Application2 { // 24-09-12 (목) 4교시 API - 문자열 객체
         *   확인하기 위해서는 == 연산 대신, equals() 메서드를 사용해야 한다. */
         System.out.println("st2.equals(str3) : " + str2.equals(str3)); //true
         System.out.println("st2.equals(str4) : " + str2.equals(str4)); //true
-
     }
-
 }
