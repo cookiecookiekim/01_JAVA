@@ -22,5 +22,6 @@ public class Application2 { // 24-09-12 (목) 6교시 문자열 파싱(parsing)
 //        char c = Character.par    Character 는 parsing 제공하지 않는다.
         // 하지만 우리에겐 charAt() 이 있다.
         char c = "ABC".charAt(0);
+
     }
 }

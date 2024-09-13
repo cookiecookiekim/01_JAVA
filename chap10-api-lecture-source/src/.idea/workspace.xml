@@ -5,34 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b248ee0f-b7d9-40be-9400-94017323ca2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section02/abstractclss/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section02/abstractclss/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section02/abstractclss/SmartPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section03/interfaceimplements/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section03/interfaceimplements/InterfaceProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section03/interfaceimplements/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section04/use/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section04/use/FarmCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section04/use/FireCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/src/main/java/com/ohgiraffers/section04/use/SoundHorn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/java/com/ohgiraffers/section02/stringbuilder/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/java/com/ohgiraffers/section02/stringbuilder/Application2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../chap08-inheritance-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chap08-inheritance-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../chap09-polymorphism-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/src/main/java/com/ohgiraffers/section01/string/Application1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/src/main/java/com/ohgiraffers/section01/string/Application2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap10-api-lecture-source/src/main/java/com/ohgiraffers/section01/string/Application3.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/com/ohgiraffers/section03/wrapper/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/com/ohgiraffers/section04/time/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/com/ohgiraffers/section04/time/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/ohgiraffers/section03/wrapper/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/com/ohgiraffers/section03/wrapper/Application2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,21 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "JJIN0323"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JJIN0323&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/cookiecookiekim/01_JAVA.git",
-    "accountId": "27a5fb79-4a87-40c2-a1a4-420e3bec0bbf"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cookiecookiekim/01_JAVA.git&quot;,
+    &quot;accountId&quot;: &quot;27a5fb79-4a87-40c2-a1a4-420e3bec0bbf&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2lxcKXgGouRTI5kX3Lal6o8TBMk" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -73,18 +50,56 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Application1.executor": "Run",
+    "Application.Application2.executor": "Run",
+    "Application.Application3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/source/01_java/01_lecture_source/chap09-polymorphism-lecture-source",
+    "last_opened_file_path": "C:/source/01_java/01_lecture_source/chap10-api-lecture-source",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Application1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section04.time.Application1" />
+      <module name="chap10-api-lecture-source" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section04.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section03.wrapper.Application3" />
+      <module name="chap10-api-lecture-source" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section03.wrapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application1" />
+        <item itemvalue="Application.Application3" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -102,6 +117,8 @@
       <option name="presentableId" value="Default" />
       <updated>1726125104388</updated>
       <workItem from="1726125105726" duration="4523000" />
+      <workItem from="1726187272535" duration="4883000" />
+      <workItem from="1726192232451" duration="96000" />
     </task>
     <servers />
   </component>
