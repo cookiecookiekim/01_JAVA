@@ -33,7 +33,7 @@ public class Application1 {
         /* comment.
         *   1. 이번 클래스에서는 List 계열 다룰 예정
         *   ArrayList(매우 중요, 매우 많이 사용 됨.)
-        *   - 가장 많이 사용되는컬렉션 클래스
+        *   - 가장 많이 사용되는 컬렉션 클래스
         *   - 내부적으로 배열을 이용하여 요소를 관리하며,
         *   인덱스를 이용해 배열의 요소에 빠르게 접근할 수 있다. */
 
@@ -53,7 +53,7 @@ public class Application1 {
 
         // 그럼 어떻게 해야할까?
         // List 인터페이스를 상속받은 클래스로 인스턴스를 생성하면 된다.
-        List list = new ArrayList(); // List를 상송받은 ArrayList 클래스로 인스턴스 생성
+        List list = new ArrayList(); // List를 상속받은 ArrayList 클래스로 인스턴스 생성
         // 이 과정이 다형성이다.
 
         /* comment.

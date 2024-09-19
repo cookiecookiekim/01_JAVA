@@ -1,5 +1,6 @@
 package com.ohgiraffers.section01.list;
 
+import java.util.Calendar;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -7,11 +8,11 @@ public class Application4 { // 24-09-19 4교시 컬렉션 Queue ★★
 
     public static void main(String[] args) {
 
-        /* title. Queue에 대해 히해하고 사용할 수 있다. */
+        /* title. Queue에 대해 이해하고 사용할 수 있다. */
 
         /* comment. Queue
         *   선형 메모리 공간에 데이터를 저장하는
-        *   선입선출(FIFI - First In First Out) 방식의 자료구조
+        *   선입선출(FIFO - First In First Out) 방식의 자료구조
         *   Queue 인터페이스를 상속받는 하위 인터페이스는 다양하지만
         *   대부분은 LinkedList를 이용해 인스턴스를 생성한다. */
 
