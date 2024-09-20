@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Application {
+public class Application { // 24-09-19 선생님 문제
 
         public static void main(String[] args) {
 
