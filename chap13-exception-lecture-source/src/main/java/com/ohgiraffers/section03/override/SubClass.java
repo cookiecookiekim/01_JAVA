@@ -19,7 +19,7 @@ public class SubClass extends SuperClass { // 24-09-20 (금) 6교시 override �
 //        public void overrideTestMethod() throws Exception {}
 
     // 부모의 예외처리 클래스보다 더 하위에 있는 예외(즉, 구체적)인 경우 오버라이딩 가능
-    public void overrideTestMethod() throws FileNotFoundException {}
+//    public void overrideTestMethod() throws FileNotFoundException {}
 
 
 
