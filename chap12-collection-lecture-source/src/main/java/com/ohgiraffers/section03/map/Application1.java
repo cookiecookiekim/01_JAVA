@@ -25,7 +25,7 @@ public class Application1 { // 24-09-20 (금) 1교시 Map
         HashMap hmap = new HashMap();
 
         /* index. 1. HashMap 인스턴스에 값 저장하기 (put) */
-        hmap.put("one", new Date()); // 클래스는 이렇게 인스턴스 생성해야하나?
+        hmap.put("one", new Date());
         hmap.put(12, "red apple");
         hmap.put(33, 123);
 

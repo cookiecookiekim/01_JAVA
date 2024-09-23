@@ -1,4 +1,4 @@
-package com.ohgiraffers.practice;
+package com.ohgiraffers.practice1;
 
 public class Calculrator { // 계산을 위한 클래스
 
